@@ -20,6 +20,9 @@ TARGET_SCREEN_WIDTH := 1080
 # Common
 $(call inherit-product, device/oplus/sm8350-common/common.mk)
 
+# NFC
+OPLUS_DEVICE_USES_ST21_NFC := true
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResDevice \
