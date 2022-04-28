@@ -4,13 +4,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/oneplus/lemonade
+DEVICE_PATH := device/oplus/RMX3360
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
 # Common
-include device/oneplus/sm8350-common/BoardConfigCommon.mk
+include device/oplus/sm8350-common/BoardConfigCommon.mk
 
 # Display
 TARGET_SCREEN_DENSITY := 450

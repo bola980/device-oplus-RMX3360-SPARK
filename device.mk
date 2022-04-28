@@ -17,7 +17,7 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 # Common
-$(call inherit-product, device/oneplus/sm8350-common/common.mk)
+$(call inherit-product, device/oplus/sm8350-common/common.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \
@@ -30,4 +30,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Vendor
-$(call inherit-product, vendor/oneplus/lemonade/lemonade-vendor.mk)
+$(call inherit-product, vendor/oplus/RMX3360/RMX3360-vendor.mk)
