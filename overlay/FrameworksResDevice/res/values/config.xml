@@ -428,7 +428,7 @@
          appended after the path string to interpret coordinates in dp instead of px units.
          Note that a physical cutout should be configured in pixels for the best results.
          -->
-    <string translatable="false" name="config_mainBuiltInDisplayCutout">
+    <!--string translatable="false" name="config_mainBuiltInDisplayCutout">
         M 64, 70
         C 64, 51.2223, 79.2223, 36, 98, 36
         C 116.778, 36, 132, 51.2223, 132, 70
@@ -436,7 +436,7 @@
         C 79.2223, 104, 64, 88.7777, 64, 70
         Z
         @left
-    </string>
+    </string-->
 
     <!-- Like config_mainBuiltInDisplayCutout, but this path is used to report the
          one single bounding rect per device edge to the app via
